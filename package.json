@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Workspace root for fnbsdiff",
+  "scripts": {
+    "build": "pnpm --filter fnbsdiff build",
+    "test": "pnpm --filter fnbsdiff-tests test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "pnpm@10.17.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
